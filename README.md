@@ -25,9 +25,9 @@ The current version of Heartware utilizes model-based code generation and a Pyth
 #### MATLAB Simulink Libraries
 
 ## Contributors
-[Zainab Iqbal]() |
-[Maryam Khatib]() |
-[Min Yi Liu]() |
+[Zainab Iqbal](https://www.linkedin.com/in/zainab-iqbal-9909161b7/) |
+[Maryam Khatib](https://www.linkedin.com/in/maryam-khatib-7a7732283/) |
+[Min Yi Liu](https://www.linkedin.com/in/min-yi-liu/) |
 [Alex Sun](https://www.linkedin.com/in/alex-sun-89a76b223/) |
-[Cynthia Sun]() |
-[Karolina Teresinska]()
+[Cynthia Sun](https://www.linkedin.com/in/cynthiayuansun/) |
+[Karolina Teresinska](https://www.linkedin.com/in/karolina-teresinska-22a042293/)
