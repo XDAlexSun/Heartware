@@ -16,6 +16,13 @@ The current version of Heartware utilizes model-based code generation and a Pyth
 ## Gallery
 
 ## Installation
+#### Dependencies
+1. Python 3.11.5. or later
+2. MATLAB Simulink 2020a
+
+#### Python Libraries
+
+#### MATLAB Simulink Libraries
 
 ## Contributors
 [Zainab Iqbal]() |
