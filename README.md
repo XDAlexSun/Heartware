@@ -21,8 +21,33 @@ The current version of Heartware utilizes model-based code generation and a Pyth
 2. MATLAB Simulink 2020a
 
 #### Python Libraries
+Install the libraries with the following lines:
+```commandline
+pip install pyqt5
+```
+and
+```commandline
+pip install hashlib
+```
 
-#### MATLAB Simulink Libraries
+#### MATLAB Libraries
+- Simulink, Embedded Coder, Fixed-Point Designer, MATLAB Coder, Simulink Check, Simulink Coder, Simulink Coverage, Simulink Design Verifier, Simulink Desktop Real-Time, Simulink Test, and Stateflow
+- Simulink Coder Support Package for NXP FRDM-K64F Board
+- Kinetis SDK v1.2.0 Mainline
+- V6.20a of the J-Link Software and Documentation pack
+
+Enter the following command in the MATLAB Command window (copy and paste exactly):
+```matlab
+open([codertarget.freedomk64f.internal.getSpPkgRootDir, '/src/mw_sdk_interface.c']);
+```
+In the file that opens, replace the following line:
+```matlab
+{ GPIO_MAKE_PIN(GPIOA_IDX, 0), MW_NOT_USED}, //PTA0, D8
+```
+with:
+```matlab
+{ GPIO_MAKE_PIN(GPIOC_IDX, 12), MW_NOT_USED}, //PTC12, D8
+```
 
 ## Contributors
 [Zainab Iqbal](https://www.linkedin.com/in/zainab-iqbal-9909161b7/) |
@@ -31,3 +56,4 @@ The current version of Heartware utilizes model-based code generation and a Pyth
 [Alex Sun](https://www.linkedin.com/in/alex-sun-89a76b223/) |
 [Cynthia Sun](https://www.linkedin.com/in/cynthiayuansun/) |
 [Karolina Teresinska](https://www.linkedin.com/in/karolina-teresinska-22a042293/)
+
